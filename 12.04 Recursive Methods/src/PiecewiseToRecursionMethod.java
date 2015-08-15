@@ -34,13 +34,13 @@ public class PiecewiseToRecursionMethod {
 		System.out.println("---------------------------------");
 		System.out.println();
 		
-		x = 25;
+		/*x = 25;
 		System.out.println("Example 1: x = " + x);
-		System.out.println("f(" + x + ") = " + method.fOf(x));
-		System.out.println();
+		System.out.println("f(" + x + ") = " + ));
+		System.out.println(); */
 		
 		ExampleThreeMethod three = new ExampleThreeMethod();
-		x = 500;
+		x = 30;
 		System.out.println("---------------------------------");
 		System.out.println("     f(x/12 + 5) - 3   if x >  25");
 		System.out.println("f(x) = ");
@@ -50,6 +50,7 @@ public class PiecewiseToRecursionMethod {
 		System.out.println("Example 3: x = " + x);
 		System.out.println("f(" + x + ") = " + three.fOf(x));
 		System.out.println();
+		
 		
 		//This Method Gives You Infinitiy and can not be solved for.
 		//The Method has been commented out for this reason

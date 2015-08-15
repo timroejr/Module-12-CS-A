@@ -51,7 +51,7 @@ public class RecursionMethodTester
         System.out.println("f(" + x + ") = " + rMethods.fOf(x));
         System.out.println();
         
-        x = 18;
+        x = 30;
         System.out.println("Example 3:  x = " + x);
         System.out.println("f(" + x + ") = " + rMethods.fOf(x));
         System.out.println();  
